@@ -1,0 +1,28 @@
+{
+  "name": "over-under",
+  "version": "1.0.0",
+  "description": "An application that allows tracking of a budget both online and offline.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "lite-server": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cabralwilliams/over-under.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cabralwilliams/over-under/issues"
+  },
+  "homepage": "https://github.com/cabralwilliams/over-under#readme",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.2",
+    "morgan": "^1.10.0"
+  }
+}
